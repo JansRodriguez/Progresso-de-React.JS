@@ -8,9 +8,10 @@ import ReactDom from 'react-dom';
             //A classe precisa herdar as funcionalidades dos componentes, por React.component
 class MeuComponente extends React.Component{
     render(){
-        return <h1>Meu primeiro componente</h1>
+        return <h1>Meu primeiro Componente</h1>
     }
 }
+
 ReactDom.render(
     <MeuComponente />, document.getElementById('root')
 );
