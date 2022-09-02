@@ -36,3 +36,22 @@ const objeto = {
 ReactDom.render(
   <Principal estado ='Minha primeira props' objeto={objeto}/>, document.getElementById('root')  
 );
+
+
+/* class Componente extends React.Component{
+    render(){
+        return (<div>
+            <h1>Temos uma props em execução: {this.props.elemento.valor1}</h1>
+            <h1>Temos uma props em execução: {this.props.elemento.valor2}</h1>
+        </div>)
+    }
+}
+//Objeto JSON
+const propriedade = {
+    valor1: "Props em execução",
+    valor2: "Confirmado do objeto JSON em execução pela pros"
+}
+//Render
+ReactDom.render(
+    <Componente elemento = {propriedade}/>, document.getElementById('root')
+) */
