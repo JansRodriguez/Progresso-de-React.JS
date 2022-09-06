@@ -1,13 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-
 //Componente
 class Exercicio extends React.Component{
     constructor(props){
         super(props);
 
-        this.state = {texto: this.props.textoInicial};
+        this.state = {texto: this.props.propriedade.textoInicial};
     }
 
     //Função
@@ -27,7 +25,7 @@ class Exercicio extends React.Component{
 
 //Objeto
 const objeto = {
-    textoInicial: "Pêra"
+    textoInicial: "Digite um valor"
 }
 
 //Render
