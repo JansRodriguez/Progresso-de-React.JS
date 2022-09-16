@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import UseStates01 from './hooks/01-UseState'
+import UseStates01 from './hooks/01-UseState';
+import UseStates02 from './hooks/02-USeState';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <UseStates01 />
+    {/* <UseStates01 /> */}
+    <UseStates02/>
   </React.StrictMode>
 );
 
