@@ -1,13 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import UseStates01 from './hooks/01-UseState';
 import UseStates02 from './hooks/02-USeState';
+import UseState04 from './hooks/04-USeEffectAPI'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <UseStates01 /> */}
-    <UseStates02/>
+    {/* <UseStates02/> */}
+    <UseState04/>
   </React.StrictMode>
 );
 
